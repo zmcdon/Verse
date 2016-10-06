@@ -1,0 +1,323 @@
+body {
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+.one {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.video-background { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    z-index: -1;
+}
+nav{
+    font-family: Raleway;
+    width: 70%;
+    height: 35px;
+    text-align: left;
+    padding: 0px;
+    margin-left: 35px;
+    display: inline-block;
+}
+nav ul{
+    margin-top: 3px;
+    padding:0px;
+    display: inline-block;
+}
+nav li{
+    display: inline-block;
+    color: white;
+    margin-right: 50px;
+
+}
+.menu{
+    float: right;
+    margin: 10px;
+    position: fixed;
+    right: 0px;
+}
+.popOut{
+    display: none;
+    height: 500px;
+    width: 25%;
+    background-color:grey;
+    position: fixed;
+    right:0;
+    z-index: 99;
+}
+.popOut h1{
+    text-align: center;
+    padding: 5px;
+}
+.vidText{
+    text-align: center;
+    color: white;
+    font-family: Raleway;
+    font-weight: lighter;
+    margin-top: 275px;
+}
+.textTop{
+    text-align: center;
+    margin: 32px;
+    font-size: 43px;
+}
+.textBottom{
+    border:1px solid white;
+    margin: 0;
+    padding: 0;
+    width: 163px;
+    margin: auto;
+    padding: 5px;
+}
+.textBottom:hover{
+    background-color: white;
+    color: black;
+}
+.arrowDown{
+    margin:auto;
+    width: 25px;
+    position: relative; 
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: 10;
+    margin-top: 70px;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px); } 
+}
+.signUp{
+    height: 55px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    display: inline-block;
+}
+.signUpBtn{
+    height: 36px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px; 
+    font-size: 100%;
+    background-color: white;
+}
+.signUpBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.myForm{
+    display: none;
+    text-align: center;
+    margin:auto;
+    padding: 5px;
+    font-family: Raleway;
+    border-radius: 3px;
+    border:1px solid black;
+    width: 300px;
+}
+.formContainer{
+    height: auto;
+}
+.submitBtn{
+    width: 100px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px; 
+    font-size: 100%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.submitBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.infoCont{
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.infoInfo{
+    font-family: Raleway;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.todoCont{
+    display: none;
+    width: 100%;
+    font-family: Raleway;
+    padding:5px;
+}
+.todoBody{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 3px;
+}
+ul, li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+}
+.todoSubmitBtn{
+    width: 100px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px; 
+    font-size: 100%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.todoSubmitBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.fearPic{
+    background-image: url('http://www.fearlessflight.com/wp-content/uploads/2010/12/FEAR1.jpg');
+    background-size: 100% 100%;
+    width: 43%;
+    height: 295px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+.fearPic h1{
+    font-family: Raleway;
+    font-size: 35px;
+    color: #7b7f8e;
+    float: right;
+    margin:40px 10px 0 0;
+    font-weight: thin;
+}
+.fearText{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.fearText h1, .anxText h1, .promiseText h1{
+    font-size: 28px;
+    margin: 0px;
+    color:rgb(222, 26, 26);
+}
+.fearText h2, .anxText h2, .promiseText h2{
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+}
+.anx{
+    background-image: url('https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/84409/width668/image-20150609-10747-18vzvsi.jpg');
+    background-size: 100% 100%;
+    width: 43%;
+    height: 295px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    padding: 10px;
+    margin-right: 20px;
+}
+.spanAnx{
+    font-size: 42px;
+    color: #507ab1;
+}
+.anxText, .promiseText{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 24px;
+}
+.fear, .anxiety, .promise{
+    background-color: black;
+    width: 100%;
+    height: 275px;
+    margin-bottom: 25px;
+}
+.fear h1, .anxiety h1, .promise h1{
+    margin:10px 0 55px 0;
+    color: white;
+    padding: 5px;
+    font-weight: thin;
+}
+.fear h2, .anxiety h2, .promise h2{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.promisePic{
+    background-image: url('http://deathwishinc.com/files/dw.logo.promise.army.high.jpg');
+    background-size: 100% 100%;
+    width: 43%;
+    height: 295px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 42px;
+}
+.footer{
+    width: 100%
+    height:155px;
+    border-top: 4px solid black;
+    margin-top: 15px;
+}
+.footer p{
+    float: right;
+    margin-right: 25px;
+    padding: 5px;
+    font-family: Raleway;
+}
+
+
+
+
+
+
+
+
+
+
